@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "Messages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "message": {
+      "type": "richtext",
+      "required": true,
+      "unique": false
+    },
+    "ip_address": {
+      "type": "string",
+      "private": true,
+      "required": true,
+      "unique": false
+    },
+    "discord_id": {
+      "type": "string",
+      "required": false,
+      "unique": false,
+      "private": true
+    },
+    "approved": {
+      "type": "boolean",
+      "default": false,
+      "required": false,
+      "unique": false
+    },
+    "published": {
+      "type": "boolean",
+      "default": false,
+      "required": false,
+      "unique": false
+    }
+  }
+}

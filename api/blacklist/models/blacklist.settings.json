@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blacklists",
+  "info": {
+    "name": "Blacklist",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "reason": {
+      "type": "text",
+      "required": true,
+      "default": "沒有為什麼。"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "ip",
+        "discord_id"
+      ]
+    }
+  }
+}
