@@ -1,6 +1,6 @@
 # ciscc-strapi
 
-The Strapi configuration and model for CISCC bot.
+The Strapi application for CISCC bot.
 
 > It should be used with `ciscc-docker`. Better to not use it directly.
 
