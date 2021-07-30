@@ -1,3 +1,11 @@
-# Strapi application
+# ciscc-strapi
 
-A quick description of your strapi application
+The Strapi configuration and model for CISCC bot.
+
+> It should be used with `ciscc-docker`. Better to not use it directly.
+
+## Configuration
+
+1. Copy `.env.example` to `.env`
+2. Modify the value inside.
+
