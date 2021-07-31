@@ -31,7 +31,7 @@
     },
     "approved": {
       "type": "boolean",
-      "default": false,
+      "default": true,
       "required": false,
       "unique": false
     },
